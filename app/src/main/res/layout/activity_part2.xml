@@ -8,10 +8,11 @@
 
     <include
         android:id="@+id/header"
-        layout="@layout/activity_header"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        layout="@layout/activity_header" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -85,4 +86,6 @@
             android:text="@string/submit" />
 
     </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>
