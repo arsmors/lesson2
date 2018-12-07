@@ -9,5 +9,11 @@ public class Part2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_part2);
+
+//        HeaderFragment fragment = new HeaderFragment();
+
+//        getSupportFragmentManager().beginTransaction().add(R.id.header, fragment).commit();
+
+
     }
 }

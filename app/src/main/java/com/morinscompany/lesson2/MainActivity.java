@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 //            int a = 0;
 //        }
 
-        Intent intent = new Intent(this, Header.class);
+        Intent intent = new Intent(this, Part2Activity.class);
         startActivity(intent);
     }
 }
